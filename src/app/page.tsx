@@ -69,19 +69,19 @@ export default function LandingPage() {
           imageAlt: "Modern stylish living room",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=1",
           imageAlt: "Home decor collection",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=1",
           imageAlt: "Smart home accessories",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png?_wi=1",
           imageAlt: "Wellness lifestyle products",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png?_wi=1",
           imageAlt: "Seasonal trending items",
         },
         {
@@ -119,7 +119,7 @@ export default function LandingPage() {
           price: "Modern & Stylish",
           rating: 5,
           reviewCount: "1.2k",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=2",
         },
         {
           id: "p2",
@@ -128,7 +128,7 @@ export default function LandingPage() {
           price: "Efficient & Convenient",
           rating: 5,
           reviewCount: "850",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=2",
         },
         {
           id: "p3",
@@ -137,7 +137,7 @@ export default function LandingPage() {
           price: "Everyday Wellbeing",
           rating: 5,
           reviewCount: "920",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png?_wi=2",
         },
         {
           id: "p4",
@@ -146,7 +146,7 @@ export default function LandingPage() {
           price: "Trending Essentials",
           rating: 5,
           reviewCount: "700",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png?_wi=2",
         },
         {
           id: "p5",
@@ -155,7 +155,7 @@ export default function LandingPage() {
           price: "Comfort Assured",
           rating: 4,
           reviewCount: "600",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=3",
         },
         {
           id: "p6",
@@ -164,7 +164,7 @@ export default function LandingPage() {
           price: "Efficient Design",
           rating: 5,
           reviewCount: "450",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=3",
         },
       ]}
       title="Our Product Categories"
