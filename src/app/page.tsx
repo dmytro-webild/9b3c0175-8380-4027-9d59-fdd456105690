@@ -105,7 +105,7 @@ export default function LandingPage() {
           <ContactText
             useInvertedBackground={false}
             background={{ variant: "gradient-bars" }}
-            text="SILVERPATH SALES LTD\nOffice: 71-75 Shelton Street, Covent Garden, London. Email: info@silverpathsales.co.uk\nPhone: +44 20 7946 0857\nBusiness Hours: Mon-Fri: 09:00 - 17:30 | Sat: 10:00 - 14:00"
+            text="SILVERPATH SALES LTD. Office: 71-75 Shelton Street, Covent Garden, London. Email: info@silverpathsales.co.uk. Phone: +44 20 7946 0857. Business Hours: Mon-Fri: 09:00 - 17:30 | Sat: 10:00 - 14:00"
           />
         </div>
 
