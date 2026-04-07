@@ -49,10 +49,10 @@ export default function LandingPage() {
             ]}
             mediaItems={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-wide-professional-high-quality-shot-of-1775577231060-fd365cf2.png", imageAlt: "Modern stylish living room" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png", imageAlt: "Home decor collection" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png", imageAlt: "Smart home accessories" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png", imageAlt: "Wellness lifestyle products" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png", imageAlt: "Seasonal trending items" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=1", imageAlt: "Home decor collection" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=1", imageAlt: "Smart home accessories" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png?_wi=1", imageAlt: "Wellness lifestyle products" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png?_wi=1", imageAlt: "Seasonal trending items" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/professional-team-working-in-a-modern-cl-1775577230901-c308507d.png", imageAlt: "Company team" }
             ]}
           />
@@ -73,12 +73,12 @@ export default function LandingPage() {
             gridVariant="four-items-2x2-equal-grid"
             useInvertedBackground={false}
             products={[
-              { id: "p1", brand: "Lifestyle", name: "Home Décor Collection", price: "Modern & Stylish", rating: 5, reviewCount: "1.2k", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png" },
-              { id: "p2", brand: "Tech", name: "Smart Home Accessories", price: "Efficient & Convenient", rating: 5, reviewCount: "850", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png" },
-              { id: "p3", brand: "Wellness", name: "Wellness & Lifestyle", price: "Everyday Wellbeing", rating: 5, reviewCount: "920", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png" },
-              { id: "p4", brand: "Trending", name: "Seasonal Items", price: "Trending Essentials", rating: 5, reviewCount: "700", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png" },
-              { id: "p5", brand: "Home", name: "Luxury Textiles", price: "Comfort Assured", rating: 4, reviewCount: "600", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png" },
-              { id: "p6", brand: "Tech", name: "Advanced Lighting", price: "Efficient Design", rating: 5, reviewCount: "450", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png" }
+              { id: "p1", brand: "Lifestyle", name: "Home Décor Collection", price: "Modern & Stylish", rating: 5, reviewCount: "1.2k", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=2" },
+              { id: "p2", brand: "Tech", name: "Smart Home Accessories", price: "Efficient & Convenient", rating: 5, reviewCount: "850", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=2" },
+              { id: "p3", brand: "Wellness", name: "Wellness & Lifestyle", price: "Everyday Wellbeing", rating: 5, reviewCount: "920", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png?_wi=2" },
+              { id: "p4", brand: "Trending", name: "Seasonal Items", price: "Trending Essentials", rating: 5, reviewCount: "700", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png?_wi=2" },
+              { id: "p5", brand: "Home", name: "Luxury Textiles", price: "Comfort Assured", rating: 4, reviewCount: "600", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=3" },
+              { id: "p6", brand: "Tech", name: "Advanced Lighting", price: "Efficient Design", rating: 5, reviewCount: "450", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=3" }
             ]}
             title="Our Product Categories"
             description="Premium selections curated for quality, practicality, and modern UK living."
