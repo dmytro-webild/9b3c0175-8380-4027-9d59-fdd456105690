@@ -8,7 +8,6 @@ import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarou
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import TextAbout from '@/components/sections/about/TextAbout';
 
 export default function LandingPage() {
   return (
@@ -29,7 +28,7 @@ export default function LandingPage() {
           <NavbarStyleCentered
             navItems={[
               { name: "Home", id: "hero" },
-              { name: "About", id: "about" },
+              { name: "About Us", id: "/about" },
               { name: "Services", id: "products" },
               { name: "Pricing", id: "pricing" },
               { name: "Contact", id: "contact" }
@@ -45,7 +44,7 @@ export default function LandingPage() {
             description="Premium home décor, smart accessories, and lifestyle essentials curated for modern UK households."
             buttons={[
               { text: "Shop Now", href: "#products" },
-              { text: "Contact Us", href: "#contact" }
+              { text: "About Us", href: "/about" }
             ]}
             mediaItems={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-wide-professional-high-quality-shot-of-1775577231060-fd365cf2.png", imageAlt: "Modern stylish living room" },
@@ -55,14 +54,6 @@ export default function LandingPage() {
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png?_wi=1", imageAlt: "Seasonal trending items" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/professional-team-working-in-a-modern-cl-1775577230901-c308507d.png", imageAlt: "Company team" }
             ]}
-          />
-        </div>
-
-        <div id="about" data-section="about">
-          <TextAbout
-            useInvertedBackground={false}
-            title="About SILVERPATH SALES LTD"
-            buttons={[{ text: "Shop Now", href: "#products" }]}
           />
         </div>
 
@@ -112,7 +103,7 @@ export default function LandingPage() {
         <div id="footer" data-section="footer">
           <FooterBase
             columns={[
-              { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Services", href: "#products" }, { label: "Contact", href: "#contact" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "#products" }, { label: "Contact", href: "#contact" }] },
               { title: "Support", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms & Conditions", href: "#" }] },
               { title: "Contact Details", items: [{ label: "020 7946 0857", href: "tel:+442079460857" }, { label: "info@silverpathsales.co.uk", href: "mailto:info@silverpathsales.co.uk" }] }
             ]}
