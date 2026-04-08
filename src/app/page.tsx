@@ -27,10 +27,9 @@ export default function LandingPage() {
           <NavbarStyleCentered
             navItems={[
               { name: "Home", id: "hero" },
+              { name: "Shop Now", id: "products" },
               { name: "About Us", id: "/about" },
-              { name: "Contact Us", id: "/contact" },
-              { name: "Services", id: "products" },
-              { name: "Pricing", id: "pricing" }
+              { name: "Contact Us", id: "/contact" }
             ]}
             brandName="SILVERPATH SALES LTD"
           />
