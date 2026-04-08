@@ -28,9 +28,9 @@ export default function LandingPage() {
             navItems={[
               { name: "Home", id: "hero" },
               { name: "About Us", id: "/about" },
+              { name: "Contact Us", id: "/contact" },
               { name: "Services", id: "products" },
-              { name: "Pricing", id: "pricing" },
-              { name: "Contact", id: "/contact" }
+              { name: "Pricing", id: "pricing" }
             ]}
             brandName="SILVERPATH SALES LTD"
           />
