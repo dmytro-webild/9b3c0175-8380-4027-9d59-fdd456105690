@@ -50,7 +50,7 @@ export default function AboutPage() {
               { title: "Contact Details", items: [{ label: "020 7946 0857", href: "tel:+442079460857" }, { label: "info@silverpathsales.co.uk", href: "mailto:info@silverpathsales.co.uk" }] }
             ]}
             logoText="SILVERPATH SALES LTD"
-            copyrightText="© 2026 SILVERPATH SALES LTD. All rights reserved."
+            copyrightText="© 2026 SILVERPATH SALES LTD. Company Number: 17140405. All rights reserved."
           />
         </div>
       </ReactLenis>

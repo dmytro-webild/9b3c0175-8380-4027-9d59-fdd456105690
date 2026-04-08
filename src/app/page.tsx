@@ -62,12 +62,12 @@ export default function LandingPage() {
             gridVariant="four-items-2x2-equal-grid"
             useInvertedBackground={false}
             products={[
-              { id: "p1", brand: "Lifestyle", name: "Home Décor Collection", price: "Modern & Stylish", rating: 5, reviewCount: "1.2k", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=2" },
-              { id: "p2", brand: "Tech", name: "Smart Home Accessories", price: "Efficient & Convenient", rating: 5, reviewCount: "850", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=2" },
-              { id: "p3", brand: "Wellness", name: "Wellness & Lifestyle", price: "Everyday Wellbeing", rating: 5, reviewCount: "920", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png?_wi=2" },
-              { id: "p4", brand: "Trending", name: "Seasonal Items", price: "Trending Essentials", rating: 5, reviewCount: "700", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png?_wi=2" },
-              { id: "p5", brand: "Home", name: "Luxury Textiles", price: "Comfort Assured", rating: 4, reviewCount: "600", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=3" },
-              { id: "p6", brand: "Tech", name: "Advanced Lighting", price: "Efficient Design", rating: 5, reviewCount: "450", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=3" }
+              { id: "p1", brand: "Lifestyle", name: "Home Décor Collection", price: "Modern & Stylish", rating: 4.8, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=2" },
+              { id: "p2", brand: "Tech", name: "Smart Home Accessories", price: "Efficient & Convenient", rating: 4.9, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=2" },
+              { id: "p3", brand: "Wellness", name: "Wellness & Lifestyle", price: "Everyday Wellbeing", rating: 4.5, reviewCount: "92", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/wellness-and-lifestyle-products-neatly-a-1775577231566-4c00001d.png?_wi=2" },
+              { id: "p4", brand: "Trending", name: "Seasonal Items", price: "Trending Essentials", rating: 4.2, reviewCount: "70", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/seasonal-home-trending-items-for-uk-livi-1775577228390-bc997b10.png?_wi=2" },
+              { id: "p5", brand: "Home", name: "Luxury Textiles", price: "Comfort Assured", rating: 4.7, reviewCount: "60", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=3" },
+              { id: "p6", brand: "Tech", name: "Advanced Lighting", price: "Efficient Design", rating: 4.4, reviewCount: "45", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=3" }
             ]}
             title="Our Product Categories"
             description="Premium selections curated for quality, practicality, and modern UK living."
@@ -98,7 +98,7 @@ export default function LandingPage() {
               { title: "Contact Details", items: [{ label: "020 7946 0857", href: "tel:+442079460857" }, { label: "info@silverpathsales.co.uk", href: "mailto:info@silverpathsales.co.uk" }] }
             ]}
             logoText="SILVERPATH SALES LTD"
-            copyrightText="© 2026 SILVERPATH SALES LTD. All rights reserved."
+            copyrightText="© 2026 SILVERPATH SALES LTD. Company Number: 17140405. All rights reserved."
           />
         </div>
       </ReactLenis>
