@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -31,7 +30,7 @@ export default function LandingPage() {
               { name: "About Us", id: "/about" },
               { name: "Services", id: "products" },
               { name: "Pricing", id: "pricing" },
-              { name: "Contact", id: "contact" }
+              { name: "Contact", id: "/contact" }
             ]}
             brandName="SILVERPATH SALES LTD"
           />
@@ -73,7 +72,7 @@ export default function LandingPage() {
             ]}
             title="Our Product Categories"
             description="Premium selections curated for quality, practicality, and modern UK living."
-            buttons={[{ text: "Request a Quote", href: "#contact" }]}
+            buttons={[{ text: "Contact Us", href: "/contact" }]}
           />
         </div>
 
@@ -83,27 +82,19 @@ export default function LandingPage() {
             textboxLayout="split-description"
             useInvertedBackground={false}
             plans={[
-              { id: "basic", badge: "Entry", price: "£29", subtitle: "Basic Accessories", features: ["Small items", "Entry-level products", "Standard delivery"], buttons: [{ text: "Get Started", href: "#contact" }] },
-              { id: "std", badge: "Popular", price: "£80", subtitle: "Standard Selection", features: ["Mid-range items", "Popular lifestyle", "Faster delivery"], buttons: [{ text: "Get Started", href: "#contact" }] },
-              { id: "prem", badge: "Top", price: "£200+", subtitle: "Premium Choice", features: ["High-end décor", "Smart devices", "Priority shipping"], buttons: [{ text: "Get Started", href: "#contact" }] }
+              { id: "basic", badge: "Entry", price: "£29", subtitle: "Basic Accessories", features: ["Small items", "Entry-level products", "Standard delivery"], buttons: [{ text: "Get Started", href: "/contact" }] },
+              { id: "std", badge: "Popular", price: "£80", subtitle: "Standard Selection", features: ["Mid-range items", "Popular lifestyle", "Faster delivery"], buttons: [{ text: "Get Started", href: "/contact" }] },
+              { id: "prem", badge: "Top", price: "£200+", subtitle: "Premium Choice", features: ["High-end décor", "Smart devices", "Priority shipping"], buttons: [{ text: "Get Started", href: "/contact" }] }
             ]}
             title="Pricing Examples"
             description="Choose the perfect package for your home lifestyle needs."
           />
         </div>
 
-        <div id="contact" data-section="contact">
-          <ContactText
-            useInvertedBackground={false}
-            background={{ variant: "gradient-bars" }}
-            text="SILVERPATH SALES LTD\nOffice: 71-75 Shelton Street, Covent Garden, London\nEmail: info@silverpathsales.co.uk\nPhone: +44 20 7946 0857\nBusiness Hours: Mon-Fri: 09:00 - 17:30, Sat: 10:00 - 14:00"
-          />
-        </div>
-
         <div id="footer" data-section="footer">
           <FooterBase
             columns={[
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "#products" }, { label: "Contact", href: "#contact" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/#products" }, { label: "Contact", href: "/contact" }] },
               { title: "Support", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms & Conditions", href: "#" }] },
               { title: "Contact Details", items: [{ label: "020 7946 0857", href: "tel:+442079460857" }, { label: "info@silverpathsales.co.uk", href: "mailto:info@silverpathsales.co.uk" }] }
             ]}
