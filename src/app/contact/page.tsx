@@ -1,12 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import FooterBase from '@/components/sections/footer/FooterBase';
 
-export default function AboutPage() {
+export default function ContactPage() {
+  const [submitted, setSubmitted] = useState(false);
   return (
     <ThemeProvider
       defaultButtonVariant="text-shift"
@@ -33,16 +34,23 @@ export default function AboutPage() {
             brandName="SILVERPATH SALES LTD"
           />
         </div>
-
-        <div id="about" data-section="about">
-          <MediaAbout
-            title="About SILVERPATH SALES LTD"
-            description="Silverpath Sales Ltd is a leading UK-based retailer dedicated to bringing quality, innovation, and style into modern households. We specialize in curating an exceptional range of home lifestyle products, smart gadgets, and décor essentials designed to improve convenience and aesthetic appeal. Our commitment is to provide premium products through seamless service, ensuring every customer enjoys a better living experience. We prioritize quality assurance and customer satisfaction, keeping pace with contemporary trends to ensure our inventory meets the evolving needs of UK homes."
-            useInvertedBackground={false}
-            buttons={[{ text: "Return Home", href: "/" }, { text: "Contact", href: "/contact" }]}
-          />
+        <div className="flex flex-col items-center justify-center min-h-[60vh] px-6 py-20">
+            <div className="w-full max-w-xl text-center space-y-4 mb-12">
+                <h1 className="text-4xl font-bold">Contact Us</h1>
+                <p className="text-lg">Office: 71-75 Shelton Street, Covent Garden, London</p>
+                <p className="text-lg">Email: info@silverpathsales.co.uk</p>
+                <p className="text-lg">Phone: +44 20 7946 0857</p>
+                <p className="text-lg">Business Hours: Mon-Fri: 09:00 - 17:30</p>
+            </div>
+            {submitted ? (
+                <div className="p-8 bg-card rounded-xl text-center font-bold text-xl">Message Sent Successfully!</div>
+            ) : (
+                <form className="w-full max-w-sm flex flex-col gap-4" onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }}>
+                    <input type="email" placeholder="Your email address" className="p-3 border rounded-full w-full" required />
+                    <button type="submit" className="px-8 py-3 bg-primary-cta text-primary-cta-text rounded-full">Send Message</button>
+                </form>
+            )}
         </div>
-
         <div id="footer" data-section="footer">
           <FooterBase
             columns={[
