@@ -61,7 +61,7 @@ export default function LandingPage() {
             textboxLayout="split-description"
             gridVariant="four-items-2x2-equal-grid"
             useInvertedBackground={false}
-            cardRatingClassName="text-yellow-500"
+            cardRatingClassName="text-yellow-400"
             products={[
               { id: "p1", brand: "Lifestyle", name: "Home Décor Collection", price: "Modern & Stylish", rating: 5, reviewCount: "120", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/a-selection-of-curated-minimalist-home-d-1775577227132-e2d89a39.png?_wi=2" },
               { id: "p2", brand: "Tech", name: "Smart Home Accessories", price: "Efficient & Convenient", rating: 5, reviewCount: "85", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C2COeKh3rQiUcxvp9BHPehNpzE/smart-home-gadget-setup-on-a-sleek-moder-1775577229732-38454db5.png?_wi=2" },
