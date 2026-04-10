@@ -96,7 +96,7 @@ export default function LandingPage() {
             columns={[
               { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/#products" }, { label: "Contact", href: "/contact" }] },
               { title: "Support", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms & Conditions", href: "#" }] },
-              { title: "Contact Details", items: [{ label: "020 7946 0857", href: "tel:+442079460857" }, { label: "info@silverpathsales.co.uk", href: "mailto:info@silverpathsales.co.uk" }] }
+              { title: "Contact Details", items: [{ label: "+447451263120", href: "tel:+447451263120" }, { label: "info@silverpathsales.co.uk", href: "mailto:info@silverpathsales.co.uk" }] }
             ]}
             logoText="SILVERPATH SALES LTD"
             copyrightText="© 2026 SILVERPATH SALES LTD. Company Number: 17140405. All rights reserved."
