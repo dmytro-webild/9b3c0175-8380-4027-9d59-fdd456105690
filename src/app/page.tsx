@@ -41,7 +41,7 @@ export default function LandingPage() {
             title="Smart, Stylish Living – Delivered to Your Door"
             description="Premium home décor, smart accessories, and lifestyle essentials curated for modern UK households."
             buttons={[
-              { text: "Shop Now", href: "#products" },
+              { text: "Shop Now", href: "/products" },
               { text: "About Us", href: "/about" }
             ]}
             mediaItems={[
@@ -94,8 +94,8 @@ export default function LandingPage() {
         <div id="footer" data-section="footer">
           <FooterBase
             columns={[
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/#products" }, { label: "Contact", href: "/contact" }] },
-              { title: "Support", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms & Conditions", href: "#" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/contact" }] },
+              { title: "Support", items: [{ label: "Privacy Policy", href: "/privacy" }, { label: "Terms & Conditions", href: "/terms" }] },
               { title: "Contact Details", items: [{ label: "+447451263120", href: "tel:+447451263120" }, { label: "silverpathsales@outlook.com", href: "mailto:silverpathsales@outlook.com" }] }
             ]}
             logoText="SILVERPATH SALES LTD"
