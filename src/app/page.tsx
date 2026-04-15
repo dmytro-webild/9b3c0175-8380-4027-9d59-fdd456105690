@@ -31,7 +31,7 @@ export default function LandingPage() {
               { name: "About Us", id: "/about" },
               { name: "Contact Us", id: "/contact" }
             ]}
-            brandName="SILVERPATH SALES LTD"
+            brandName="GLOBAL NOVA COMMERCE LTD"
           />
         </div>
 
@@ -39,7 +39,7 @@ export default function LandingPage() {
           <HeroBillboardCarousel
             background={{ variant: "gradient-bars" }}
             title="Smart, Stylish Living – Delivered to Your Door"
-            description="Premium home décor, smart accessories, and lifestyle essentials curated for modern UK households."
+            description="Premium home décor, smart accessories, and lifestyle essentials curated for modern UK households by Global Nova Commerce Ltd."
             buttons={[
               { text: "Shop Now", href: "#products" },
               { text: "About Us", href: "/about" }
@@ -94,12 +94,12 @@ export default function LandingPage() {
         <div id="footer" data-section="footer">
           <FooterBase
             columns={[
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/#products" }, { label: "Contact", href: "/contact" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Shop", href: "/#products" }, { label: "Contact", href: "/contact" }] },
               { title: "Support", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms & Conditions", href: "#" }] },
-              { title: "Contact Details", items: [{ label: "+447451263120", href: "tel:+447451263120" }, { label: "silverpathsales@outlook.com", href: "mailto:silverpathsales@outlook.com" }] }
+              { title: "Contact Details", items: [{ label: "+447451263255", href: "tel:+447451263255" }, { label: "globalnovacommerceltd@gmail.com", href: "mailto:globalnovacommerceltd@gmail.com" }] }
             ]}
-            logoText="SILVERPATH SALES LTD"
-            copyrightText="© 2026 SILVERPATH SALES LTD. Company Number: 17140405. All rights reserved."
+            logoText="GLOBAL NOVA COMMERCE LTD"
+            copyrightText="© 2025 | GLOBAL NOVA COMMERCE LTD. Company Number: 17131176. 20 Lavington St, London SE1 0NZ, UK. All rights reserved."
           />
         </div>
       </ReactLenis>

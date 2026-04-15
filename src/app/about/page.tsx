@@ -29,14 +29,14 @@ export default function AboutPage() {
               { name: "About Us", id: "/about" },
               { name: "Contact Us", id: "/contact" }
             ]}
-            brandName="SILVERPATH SALES LTD"
+            brandName="GLOBAL NOVA COMMERCE LTD"
           />
         </div>
 
         <div id="about" data-section="about">
           <MediaAbout
-            title="About SILVERPATH SALES LTD"
-            description="Silverpath Sales Ltd is a leading UK-based retailer dedicated to bringing quality, innovation, and style into modern households. We specialize in curating an exceptional range of home lifestyle products, smart gadgets, and décor essentials designed to improve convenience and aesthetic appeal. Our commitment is to provide premium products through seamless service, ensuring every customer enjoys a better living experience. We prioritize quality assurance and customer satisfaction, keeping pace with contemporary trends to ensure our inventory meets the evolving needs of UK homes."
+            title="About GLOBAL NOVA COMMERCE LTD"
+            description="Global Nova Commerce Ltd is a premier UK-based retailer dedicated to excellence, innovation, and quality. We specialize in curating an exceptional range of home lifestyle products, smart gadgets, and décor essentials designed to enhance modern living. Our commitment is to provide premium products through seamless service, ensuring every customer enjoys a superior experience. With our operational headquarters at 20 Lavington St, London, we prioritize quality assurance and customer satisfaction, consistently adapting to the evolving needs of the UK market."
             useInvertedBackground={false}
             buttons={[{ text: "Return Home", href: "/" }, { text: "Contact", href: "/contact" }]}
           />
@@ -45,12 +45,12 @@ export default function AboutPage() {
         <div id="footer" data-section="footer">
           <FooterBase
             columns={[
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/#products" }, { label: "Contact", href: "/contact" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Shop", href: "/#products" }, { label: "Contact", href: "/contact" }] },
               { title: "Support", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms & Conditions", href: "#" }] },
-              { title: "Contact Details", items: [{ label: "+447451263120", href: "tel:+447451263120" }, { label: "silverpathsales@outlook.com", href: "mailto:silverpathsales@outlook.com" }] }
+              { title: "Contact Details", items: [{ label: "+447451263255", href: "tel:+447451263255" }, { label: "globalnovacommerceltd@gmail.com", href: "mailto:globalnovacommerceltd@gmail.com" }] }
             ]}
-            logoText="SILVERPATH SALES LTD"
-            copyrightText="© 2026 SILVERPATH SALES LTD. Company Number: 17140405. All rights reserved."
+            logoText="GLOBAL NOVA COMMERCE LTD"
+            copyrightText="© 2025 | GLOBAL NOVA COMMERCE LTD. Company Number: 17131176. 20 Lavington St, London SE1 0NZ, UK. All rights reserved."
           />
         </div>
       </ReactLenis>

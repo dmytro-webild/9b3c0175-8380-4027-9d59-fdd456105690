@@ -30,16 +30,15 @@ export default function ContactPage() {
               { name: "About Us", id: "/about" },
               { name: "Contact Us", id: "/contact" }
             ]}
-            brandName="SILVERPATH SALES LTD"
+            brandName="GLOBAL NOVA COMMERCE LTD"
           />
         </div>
         <div className="flex flex-col items-center justify-center min-h-[60vh] px-6 py-20">
             <div className="w-full max-w-xl text-center space-y-4 mb-12">
                 <h1 className="text-4xl font-bold">Contact Us</h1>
-                <p className="text-lg">Office: 71-75 Shelton Street, Covent Garden, London</p>
-                <p className="text-lg">Email: silverpathsales@outlook.com</p>
-                <p className="text-lg">Phone: +44 7451 263120</p>
-                <p className="text-lg">Business Hours: Mon-Fri: 09:00 - 17:30</p>
+                <p className="text-lg">Address: 20 Lavington St, London SE1 0NZ, United Kingdom</p>
+                <p className="text-lg">Email: globalnovacommerceltd@gmail.com</p>
+                <p className="text-lg">Phone: +44 7451 263255</p>
             </div>
             {submitted ? (
                 <div className="p-8 bg-card rounded-xl text-center font-bold text-xl">Message Sent Successfully!</div>
@@ -53,12 +52,12 @@ export default function ContactPage() {
         <div id="footer" data-section="footer">
           <FooterBase
             columns={[
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/#products" }, { label: "Contact", href: "/contact" }] },
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Shop", href: "/#products" }, { label: "Contact", href: "/contact" }] },
               { title: "Support", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms & Conditions", href: "#" }] },
-              { title: "Contact Details", items: [{ label: "+447451263120", href: "tel:+447451263120" }, { label: "silverpathsales@outlook.com", href: "mailto:silverpathsales@outlook.com" }] }
+              { title: "Contact Details", items: [{ label: "+447451263255", href: "tel:+447451263255" }, { label: "globalnovacommerceltd@gmail.com", href: "mailto:globalnovacommerceltd@gmail.com" }] }
             ]}
-            logoText="SILVERPATH SALES LTD"
-            copyrightText="© 2026 SILVERPATH SALES LTD. Company Number: 17140405. All rights reserved."
+            logoText="GLOBAL NOVA COMMERCE LTD"
+            copyrightText="© 2025 | GLOBAL NOVA COMMERCE LTD. Company Number: 17131176. 20 Lavington St, London SE1 0NZ, UK. All rights reserved."
           />
         </div>
       </ReactLenis>
